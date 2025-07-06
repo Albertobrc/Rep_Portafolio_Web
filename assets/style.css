@@ -197,7 +197,7 @@ footer {
 
 #proyectos {
   padding: 60px 20px;
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 #proyectos h2 {
@@ -206,27 +206,27 @@ footer {
   border-bottom: 2px solid #111;
   display: inline-block;
   padding-bottom: 5px;
-  text-align: left; 
+  text-align: left;
 }
 
 #proyectos h2::after {
-  display: none; 
+  display: none;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 .project-card {
   background: #fff;
-  border-radius: 8px; 
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  border: 1px solid #eee; 
+  border: 1px solid #eee;
 }
 
 .project-card:hover {
@@ -237,7 +237,7 @@ footer {
 .project-image {
   height: 180px;
   overflow: hidden;
-  border-bottom: 1px solid #eee; 
+  border-bottom: 1px solid #eee;
 }
 
 .project-image img {
@@ -276,13 +276,13 @@ footer {
 }
 
 .project-tech span {
-  background: #f7f7f7; 
+  background: #f7f7f7;
   color: #333;
   padding: 4px 12px;
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 500;
-  border: 1px solid #eee; 
+  border: 1px solid #eee;
 }
 
 .btn-project {
@@ -295,7 +295,7 @@ footer {
   font-weight: 500;
   font-size: 0.9rem;
   transition: all 0.3s ease;
-  border: 1px solid #111; 
+  border: 1px solid #111;
 }
 
 .btn-project:hover {
