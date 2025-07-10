@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./assets/style.css">
   <link rel="shortcut icon" href="./assets/img/macos_big_sur_folder_icon_186046.webp" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
@@ -15,20 +16,28 @@
     <nav>
       <ul>
         <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#certificaciones">Certificaciones</a></li>
+
       </ul>
     </nav>
   </header>
+
 
   <section id="inicio" class="hero">
     <div class="info">
       <h2>Hola!, Soy</h2>
       <h1>Alberto Hernández Barcenas</h1>
-      <h3 class="verde">Amante de las TI</h3>
-      <p>Estudiante interesado en el desarrollo, bases de datos, análisis de datos y telecomunicaciones.</p>
-      <a href="./assets/cv/Hernández_Barcenas_Alberto_CV_Es.pdf" class="btn" download>Descargar CV</a>
+      <h3 class="verde">Ingeniero TI | Business Intelligence 🧠</h3>
+      <p>Soy egresado de la carrera de Tecnologías de la Información y Comunicación y actualmente me desempeño como
+        residente en el área de Business Intelligence. Me interesa profundamente el análisis y la visualización de datos
+        para generar información que apoye la toma de decisiones estratégicas. Manejo herramientas como Power BI, SQL y
+        Excel avanzado, y estoy en constante aprendizaje para desarrollar soluciones que aporten valor a las
+        organizaciones. Busco seguir creciendo profesionalmente y consolidar mi carrera en el ámbito de la inteligencia
+        de negocios. 💻</p>
+      <a href="./assets/cv/Hernandez_Barcenas_Alberto_CV_Es.pdf" class="btn" download>Descargar CV</a>
     </div>
 
     <div class="foto">
@@ -38,36 +47,43 @@
   </section>
 
 
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <div class="grid">
-      <div class="skill"><img src="assets/img/git.png"><span>git</span></div>
-      <div class="skill"><img
-          src="assets/img/png-clipart-website-development-html5-logo-world-wide-web-consortium-world-wide-web-angle-web-design.png"><span>HTML5</span>
+  <div class="redes">
+    <a href="mailto:albertohernandezbarcenas67@gmail.com" target="_blank">
+      <i class="fa-solid fa-envelope"></i> Gmail
+    </a>
+    <a href="https://github.com/Albertobrc" target="_blank">
+      <i class="fa-brands fa-github"></i> Github
+    </a>
+    <a href="https://www.linkedin.com/in/alberto-hdz-brc" target="_blank">
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://instagram.com/beto.brc" target="_blank">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+  </div>
+
+
+  <section id="experiencia">
+    <h2>Experiencia Laboral</h2>
+    <div class="experiencia-grid">
+      <div class="experiencia-card">
+        <div class="exp-header">
+          <img src="assets/img/linus-no-official-C7kGs2tl.png" alt="Empresa XYZ">
+          <div>
+            <h3>Residente Business Intelligence</h3>
+            <p class="empresa">Linus analitica</p>
+          </div>
+        </div>
+        <p class="fecha">Julio 2025 – Presente</p>
+        <ul class="responsabilidades">
+          <li>Desarrollo de dashboards interactivos en Power BI.</li>
+          <li>Análisis de grandes volúmenes de datos con SQL.</li>
+          <li>Automatización de reportes estratégicos para gerencia.</li>
+        </ul>
       </div>
-      <div class="skill"><img
-          src="assets/img/png-transparent-web-development-cascading-style-sheets-css3-computer-icons-css-miscellaneous-blue-angle-thumbnail.png"><span>CSS3</span>
-      </div>
-      <div class="skill"><img
-          src="assets/img/javascript-logo-javascript-icon-transparent-free-png.webp"><span>JavaScript</span></div>
-      <div class="skill"><img
-          src="assets/img/png-transparent-node-js-angularjs-react-javascript-npm-node-js-angle-text-trademark.png"><span>Node
-          js</span></div>
-      <div class="skill"><img src="assets/img/java-logo-11609365784e4gmvr3iyr.png"><span>Java</span></div>
-      <div class="skill"><img src="assets/img/python-5-logo-png-transparent.png"><span>Python</span></div>
-      <div class="skill"><img src="assets/img/pngtree-json-file-document-icon-png-image_897441.jpg"><span>JSON</span>
-      </div>
-      <div class="skill"><img src="assets/img/C_Logo.png"><span>C</span></div>
-      <div class="skill"><img
-          src="assets/img/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue-thumbnail.png"><span>C++</span>
-      </div>
-      <div class="skill"><img src="assets/img/Tableau-Symbol.png"><span>Tableau</span></div>
-      <div class="skill"><img src="assets/img/microsoft-sql-server.png"><span>SQL Server</span></div>
-      <div class="skill"><img src="assets/img/images.png"><span>MySQL</span></div>
-      <div class="skill"><img src="assets/img/Cisco-Packet-Tracer.webp"><span>Packet Tracer</span></div>
-      <div class="skill"><img src="assets/img/PuTTY_icon_128px.png"><span>PuTTY</span></div>
     </div>
   </section>
+
 
   <section id="proyectos" class="projects-section">
     <h2>Mis Proyectos</h2>
@@ -124,6 +140,41 @@
     </div>
   </section>
 
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="grid">
+      <div class="skill"><img src="assets/img/git.png"><span>git</span></div>
+      <div class="skill"><img
+          src="assets/img/png-clipart-website-development-html5-logo-world-wide-web-consortium-world-wide-web-angle-web-design.png"><span>HTML5</span>
+      </div>
+      <div class="skill"><img
+          src="assets/img/png-transparent-web-development-cascading-style-sheets-css3-computer-icons-css-miscellaneous-blue-angle-thumbnail.png"><span>CSS3</span>
+      </div>
+      <div class="skill"><img
+          src="assets/img/javascript-logo-javascript-icon-transparent-free-png.webp"><span>JavaScript</span></div>
+      <div class="skill"><img
+          src="assets/img/png-transparent-node-js-angularjs-react-javascript-npm-node-js-angle-text-trademark.png"><span>Node
+          js</span></div>
+      <div class="skill"><img src="assets/img/java-logo-11609365784e4gmvr3iyr.png"><span>Java</span></div>
+      <div class="skill"><img src="assets/img/python-5-logo-png-transparent.png"><span>Python</span></div>
+      <div class="skill"><img src="assets/img/New_Power_BI_Logo.svg"><span>Power BI</span></div>
+
+      <div class="skill"><img src="assets/img/pngtree-json-file-document-icon-png-image_897441.jpg"><span>JSON</span>
+      </div>
+      <div class="skill"><img src="assets/img/C_Logo.png"><span>C</span></div>
+      <div class="skill"><img
+          src="assets/img/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue-thumbnail.png"><span>C++</span>
+      </div>
+      <div class="skill"><img src="assets/img/Tableau-Symbol.png"><span>Tableau</span></div>
+      <div class="skill"><img src="assets/img/microsoft-sql-server.png"><span>SQL Server</span></div>
+      <div class="skill"><img src="assets/img/images.png"><span>MySQL</span></div>
+      <div class="skill"><img src="assets/img/Cisco-Packet-Tracer.webp"><span>Packet Tracer</span></div>
+      <div class="skill"><img src="assets/img/PuTTY_icon_128px.png"><span>PuTTY</span></div>
+    </div>
+  </section>
+
+
   <section id="certificaciones">
     <h2>Certificaciones</h2>
     <div class="grid-cert">
@@ -165,9 +216,12 @@
       </div>
   </section>
 
+
   <footer>
     <p>© 2025 Alberto Hernández Barcenas.</p>
   </footer>
+
+
 </body>
 
 </html>
